@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
 import React from 'react'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
@@ -49,9 +48,11 @@ export default function page() {
             <h2>Por mais apenas - 27,80</h2>
           </div>
         </div>
-        <p className='text-[9px]'>Você terá resultados 3x mais rápidos e ganhos ilimitados</p>
+        <p className="text-[9px]">
+          Você terá resultados 3x mais rápidos e ganhos ilimitados
+        </p>
       </div>
-      <Button className='w-full uppercase'>Finalizar Cadastro</Button>
+      <Button className="w-full uppercase">Finalizar Cadastro</Button>
     </div>
   )
 }

@@ -129,10 +129,8 @@ export default function Page() {
         alt="Logo ClickBet"
       />
       <div className="flex flex-col gap-2">
-        <h1 className="font-bold text-2xl">
-          Chegou a hora de faturar de verdade
-        </h1>
-        <h2 className="font-semibold">
+        <h1 className="text-base">Chegou a hora de faturar de verdade</h1>
+        <h2 className="text-xl font-semibold">
           Cadastre corretamente para receber o seu acesso imediatamente
         </h2>
       </div>
